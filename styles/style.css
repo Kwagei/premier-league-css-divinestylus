@@ -1,0 +1,133 @@
+html, body {
+    font-family: "Open Sans";
+    background-color: #ffffff;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+::selection {
+    background-color: #ff2882;
+    color: #ffffff;
+  }
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    height: 3.5rem;
+    width: 100%;
+}
+
+section img {
+    margin: auto 2%;
+    padding: 13px 0 0 0;
+    width: 165px;
+}
+
+table {
+    width: 96%;
+    margin: auto;
+}
+
+thead {
+    background-color: #fbfbfb;
+}
+
+th {
+    padding: 10px 20px;
+    color: #6a6a6a;
+    text-align: left;
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+td {
+    background-color: #ffffff;
+    font-size: .8rem;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    padding: 0;
+}
+
+.img {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-container{
+    background-color: #fbfbfb;
+    color: #686868;
+}
+
+.icon-container:hover {
+    background-color: #ff2882;
+    color: #fff;
+}
+
+.icon {
+    margin: auto;
+    padding: 0;
+    height: .3rem;
+}
+
+.team {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.team p {
+    margin: auto 0;
+    padding: 20px;
+    text-align: left;
+}
+
+.team p:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 1.8rem;
+    text-align: center;
+    padding: 0 0 0 10px;
+    margin: auto 0;
+}
+
+.logo2 {
+    height: 1.4rem;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    border: 1px solid #efefef;
+    border-radius: 50%;
+}
+
+.points a {
+    margin: 2px;
+    text-decoration: none;
+}
+
+.win {
+    padding: 7px 10px;
+    background-color: #13cf00;
+    border-radius: 100%;
+    color: #ffffff;
+}
+
+.draw {
+    padding: 7px 11px;
+    background-color: #76766f;
+    border-radius: 100%;
+    color: #ffffff;
+}
+
+.loss {
+    padding: 7px 12px;
+    background-color: #d81920;
+    border-radius: 100%;
+    color: #ffffff;
+}
