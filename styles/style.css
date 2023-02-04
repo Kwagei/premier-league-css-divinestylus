@@ -1,0 +1,72 @@
+html, body {
+    font-family: "Open Sans";
+    background-color: #e7e7ea;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    max-width: 100%;
+    margin: auto;
+}
+
+th {
+    padding: 10px 20px;
+    color: #6a6a6a;
+    text-align: left;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+td {
+    background-color: #ffffff;
+    height: 3.5rem;
+    font-size: .8rem;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    padding: 0;
+}
+
+.img {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-container:hover {
+    background-color: #ff2882;
+}
+
+.icon {
+    margin: auto;
+    padding: 0;
+    height: .4rem;
+}
+
+.icon:hover {
+    color: #fff;
+}
+
+.team {
+    display: flex;
+    justify-content: left;
+}
+
+.team p {
+    margin: auto 0;
+    padding: 20px;
+    text-align: left;
+}
+
+.logo {
+    height: 1.8rem;
+    text-align: center;
+    padding: 0 0 0 10px;
+    margin: auto 0;
+}
